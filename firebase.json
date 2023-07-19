@@ -1,13 +1,8 @@
 {
-"hosting": {
-      "site": "herbedsauce",
+  "public": "public",
   "hosting": {
     "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
         "source": "**",
