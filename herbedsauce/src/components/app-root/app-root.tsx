@@ -1,6 +1,5 @@
 import { Component, h } from '@stencil/core';
 import { initializeApp } from 'firebase/app';
-import { getAnalytics } from 'firebase/analytics';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 @Component({
@@ -23,8 +22,8 @@ export class AppRoot {
     };
 
     // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
+    const app = initializeApp(firebaseConfig, 'herbedsauces');
+    console.log(app.name);
   }
   render() {
     return (
