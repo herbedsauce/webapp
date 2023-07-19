@@ -12,13 +12,12 @@ export class AppRoot {
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     const firebaseConfig = {
-      apiKey: 'AIzaSyCaMUNdBLEjWR6uBg2anDBwspLNpV1Rh9M',
-      authDomain: 'herbedsauce-cd6f6.firebaseapp.com',
-      projectId: 'herbedsauce-cd6f6',
-      storageBucket: 'herbedsauce-cd6f6.appspot.com',
-      messagingSenderId: '526668315816',
-      appId: '1:526668315816:web:e804070b7346911948d69d',
-      measurementId: 'G-2LYQZLZJYK',
+      apiKey: 'AIzaSyCvvPHOQncs4t6UXYjISXa503rxRpSAUxo',
+      authDomain: 'herbedsauce.firebaseapp.com',
+      projectId: 'herbedsauce',
+      storageBucket: 'herbedsauce.appspot.com',
+      messagingSenderId: '114230572887',
+      appId: '1:114230572887:web:0c625247e731b697aaf012',
     };
 
     // Initialize Firebase

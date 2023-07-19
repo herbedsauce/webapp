@@ -1,4 +1,6 @@
 {
+"hosting": {
+      "site": "herbedsauce",
   "hosting": {
     "public": "public",
     "ignore": [
